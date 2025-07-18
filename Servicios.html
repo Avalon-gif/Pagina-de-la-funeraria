@@ -1,0 +1,86 @@
+<html lang="es"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Servicios - Fritz REUTER</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+<header class="header-principal">
+  <div class="header-container">
+    <div class="logo-grande">
+      <img src="img/logo.png" alt="Fritz REUTER logo">
+    </div>
+
+    <!-- Botón hamburguesa (input + label) -->
+    <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="menu-icon">☰</label>
+
+    <!-- Menú -->
+    <nav class="nav-derecha">
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="servicios.html">Servicios</a></li>
+        <li><a href="accesorios.html">Accesorios</a></li>
+        <li><a href="precios.html">Precios</a></li>
+        <li><input type="search" placeholder="Buscar..."></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+  <!-- CONTENIDO PRINCIPAL -->
+  <main class="container">
+    <section class="hero-content" style="padding: 3rem 1rem 1rem;">
+      <h1>Planes Funerarios</h1>
+      <p style="text-align:center; max-width: 700px; margin: auto;">Ofrecemos tres niveles de servicio adaptados a las necesidades de cada familia. Todos nuestros planes están diseñados con respeto, calidad y acompañamiento.</p>
+    </section>
+
+    <div class="cards-container">
+      <!-- Plan VIP -->
+      <article class="card">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="crown" class="lucide lucide-crown"><path d="M11.562 3.266a.5.5 0 0 1 .876 0L15.39 8.87a1 1 0 0 0 1.516.294L21.183 5.5a.5.5 0 0 1 .798.519l-2.834 10.246a1 1 0 0 1-.956.734H5.81a1 1 0 0 1-.957-.734L2.02 6.02a.5.5 0 0 1 .798-.519l4.276 3.664a1 1 0 0 0 1.516-.294z"></path><path d="M5 21h14"></path></svg>
+        <h3>Plan VIP</h3>
+        <ul>
+          <li>Traslado del cuerpo</li>
+          <li>Preparación profesional</li>
+          <li>Coche de flores</li>
+          <li>Carroza de lujo</li>
+        </ul>
+      </article>
+
+      <!-- Plan Lujo -->
+      <article class="card">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="medal" class="lucide lucide-medal"><path d="M7.21 15 2.66 7.14a2 2 0 0 1 .13-2.2L4.4 2.8A2 2 0 0 1 6 2h12a2 2 0 0 1 1.6.8l1.6 2.14a2 2 0 0 1 .14 2.2L16.79 15"></path><path d="M11 12 5.12 2.2"></path><path d="m13 12 5.88-9.8"></path><path d="M8 7h8"></path><circle cx="12" cy="17" r="5"></circle><path d="M12 18v-2h-.5"></path></svg>
+        <h3>Plan Lujo</h3>
+        <ul>
+          <li>Todo lo del Plan VIP</li>
+          <li>Transmisión en vivo</li>
+          <li>Asesor personalizado</li>
+        </ul>
+      </article>
+
+      <!-- Plan Superior -->
+      <article class="card">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="diamond" class="lucide lucide-diamond"><path d="M2.7 10.3a2.41 2.41 0 0 0 0 3.41l7.59 7.59a2.41 2.41 0 0 0 3.41 0l7.59-7.59a2.41 2.41 0 0 0 0-3.41l-7.59-7.59a2.41 2.41 0 0 0-3.41 0Z"></path></svg>
+        <h3>Plan Superior</h3>
+        <ul>
+          <li>Todo lo del Plan Lujo</li>
+          <li>Flores adicionales</li>
+          <li>Vehículo de acompañamiento</li>
+        </ul>
+      </article>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 Fritz REUTER - Todos los derechos reservados.</p>
+  </footer>
+
+  <script>
+    lucide.createIcons();
+  </script>
+
+
+</body></html>
